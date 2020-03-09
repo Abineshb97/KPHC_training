@@ -1,1 +1,32 @@
-Hola Amigo Test 1
+**************************************************************************************************************
+					GIT
+**************************************************************************************************************
+Step1:	download Git and instal in your PC 
+Step2: 	create and open your git account from "https://www.github.com"
+Step3:	Create new repository
+Step4:	Create new file and commit it to master branch(by default) 
+	or by creating new branches the file can commit in  new branch
+**************************************************************************************************************
+Fork: Option to share a rerpository and work on
+New pull request : Ability to merge two branches into one
+Clone or download: shares the repository link so that code can be shared and executed using other tools
+
+**************************************************************************************************************
+Cloning GitHub remote repository with Local Repository: 
+
+Step 1:create a folder in local repository and right click and choose "Git bash here" inside the newly created folder
+Step 2: Type the code in git bash 
+	git clone <repository_URL>
+**************************************************************************************************************
+Commit from local repository :
+Step1: Create a file which need to be committed
+Step2:After cloning to local repository type the code in the git bash
+
+	git add <filename.txt>
+	git commit -m "Type your message here"	
+	git push
+step 3: it will ask username and password 
+step 4: now it is pushed to git repository , go to the github and check whether the file is added in the github repository
+
+
+**************************************************************************************************************
