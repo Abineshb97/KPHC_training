@@ -24,9 +24,19 @@ Step2:After cloning to local repository type the code in the git bash
 
 	git add <filename.txt>
 	git commit -m "Type your message here"	
-	git push
+	git push 
+
 step 3: it will ask username and password 
 step 4: now it is pushed to git repository , go to the github and check whether the file is added in the github repository
-
-
 **************************************************************************************************************
+to add all the files available in a folder 
+		git add .
+**************************************************************************************************************
+to push ,
+		git push
+		git push origin master 
+**************************************************************************************************************
+to use another branch,
+
+		git checkout branchname
+*************************************************************************************************************
